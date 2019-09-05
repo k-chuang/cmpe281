@@ -17,6 +17,16 @@ In this Lab, you will be setting up your AWS account with SSH keys to access EC2
 - 10.* - private, 127.* - host, 192.* - private
 - NAT Instance - software instance  vs NAT Gateway - hardware instance
 - LAMP - Linux OS, the Apache HTTP Server, the MySQL database, and the PHP programming language.
+- chkconfig run levels
+  0   Halt
+  1   Single-User mode
+  2   Multi-user mode console logins only (without networking)
+  3   Multi-User mode, console logins only
+  4   Not used/User-definable
+  5   Multi-User mode, with display manager as well as console logins (X11)
+  6   Reboot
+- chmod 2775 ourdirectory does two helpful things to the directory's file permissions. First, it means that people in your group can create new files in that directory, but other people cannot.
+- IMPORTANT: After setting up the instance, copy loadtest.php and phpinfo.php files to go to /var/www/html.
 
 ## Some useful commands to remember
 ```bash
